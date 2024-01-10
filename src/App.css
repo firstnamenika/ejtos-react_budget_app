@@ -2,6 +2,49 @@
   text-align: center;
 }
 
+select {
+    background-color: white;
+    color: black;
+    border-radius: 10%;
+}
+
+option {
+    background-color: white;
+    color: black;
+    border-radius: 10%;    
+}
+
+.currency-span select {
+    background-color: rgb(171, 224, 171);
+    border-radius: 5%;
+    border-color: transparent;
+    color: white;
+}
+
+.currency-span option {
+    background-color: rgb(171, 224, 171);
+    border-radius: 5%;
+    border-color: transparent;
+    color: white;
+}
+.currency-span select:hover {
+    cursor: pointer;
+}
+
+.quantity-input {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.quantity-input span {
+    margin-left: 1.5rem;
+}
+
+option {
+    cursor: pointer;
+    color: black;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
